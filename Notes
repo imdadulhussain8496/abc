@@ -57,7 +57,7 @@ git reset  (added file re add )
 
 git diff <filename>   (modified fille check what we canged)
 
-git diff <compare another branch name> 
+git diff < branch name> branch check 
 
 git clone   (copy local pc )
 
