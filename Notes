@@ -1,0 +1,80 @@
+
+git init--------used for once only when you start working with git on new folder.
+
+
+git status   this is used to check the status of the folder that all the files are part of git or not.
+if you are going to add any new file in the folder then check with git status and it will show you untracked file. To make this part of git you need to perform git add and git commit.
+
+
+git add --a   when you are adding the file for the first time as part of git repository.
+Git add (file name)
+git add . (All files )
+git add *
+
+
+git commit -m "initial commit" first time only.
+
+git commit -a -m "message"-------this will only be used for those files who are already a part of your git, use different commands like add and commit.
+
+
+commands for github repo---  push data. perform the given commands for the fist time only 
+git branch -M main
+git remote add origin https://github.com/imdadulhussain8496/Gitpractice.
+git push -u origin main
+
+
+after this to upload or push the data in the github repository always use this command:
+git push.
+
+
+ls   (chack folder howmany files added,folder me kitni files add he use check karte he )
+
+ls -a   (check all git hidden files)
+
+cd <filename>  (change directory main-folder to sub-folder)
+
+cd ..  (used to change the current working directory)
+
+git remote -v      variable check like origin 
+
+git remote     ( variable name ,repo location,origin name )
+
+git log    (history commit check)
+
+git remote rm origin<name>  (delete for another remote or origin )  
+
+git rm --cached < file name > (dlt file from git only, not in pc folder , save file to untract , agar kisi file ko ham ignore karna chahe to usko pehle git rm --cached karke gitse hatana hoga after that us untract file ko ham .gitignore file me add karenge)
+
+git clean -i,-n,-f   (untract file remove from git)
+
+git rm < file name > (permanent delete file from git and local )
+
+.gitignore  (ignore file , ignore untract file )
+
+git mv < old file name > < new file name > file rename 
+
+git reset  (added file re add )
+
+git diff <filename>   (modified fille check what we canged)
+
+git diff <compare another branch name> 
+
+git clone   (copy local pc )
+
+fork  (copy on github)
+
+git checkout   (chang to branch)
+
+git checkout -b  <create new branch name >  
+
+git checkout -d <branch name >. Delete branch
+
+
+
+        
+
+
+
+
+
+
